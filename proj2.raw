@@ -1,0 +1,1506 @@
+------[ Wed May 23 21:41:13 2018 ]------
+--[ read-abc-1: Test reading short file w/ length less than file size ]--
+nachos 5.0j initializing... config interrupt timer processor console user-check grader
+
+nachos.machine.AssertionFailureError: Unknown system call!
+	at nachos.machine.Lib.assertTrue(Lib.java:89)
+	at nachos.machine.Lib.assertNotReached(Lib.java:106)
+	at nachos.userprog.UserProcess.handleSyscall(UserProcess.java:447)
+	at nachos.userprog.UserProcess.handleException(UserProcess.java:464)
+	at nachos.userprog.UserKernel.exceptionHandler(UserKernel.java:83)
+	at nachos.userprog.UserKernel$1.run(UserKernel.java:29)
+	at nachos.machine.Processor$MipsException.handle(Processor.java:619)
+	at nachos.machine.Processor.run(Processor.java:101)
+	at nachos.userprog.UThread.runProgram(UThread.java:31)
+	at nachos.userprog.UThread.access$000(UThread.java:11)
+	at nachos.userprog.UThread$1.run(UThread.java:20)
+	at nachos.threads.KThread.runThread(KThread.java:170)
+	at nachos.threads.KThread.access$000(KThread.java:41)
+	at nachos.threads.KThread$1.run(KThread.java:159)
+	at nachos.machine.TCB.threadroot(TCB.java:246)
+	at nachos.machine.TCB.access$100(TCB.java:25)
+	at nachos.machine.TCB$1.run(TCB.java:99)
+	at java.lang.Thread.run(Thread.java:748)
+
+--[ read-abc-2: Test reading short file w/ length equal to file size ]--
+nachos 5.0j initializing... config interrupt timer processor console user-check grader
+
+nachos.machine.AssertionFailureError: Unknown system call!
+	at nachos.machine.Lib.assertTrue(Lib.java:89)
+	at nachos.machine.Lib.assertNotReached(Lib.java:106)
+	at nachos.userprog.UserProcess.handleSyscall(UserProcess.java:447)
+	at nachos.userprog.UserProcess.handleException(UserProcess.java:464)
+	at nachos.userprog.UserKernel.exceptionHandler(UserKernel.java:83)
+	at nachos.userprog.UserKernel$1.run(UserKernel.java:29)
+	at nachos.machine.Processor$MipsException.handle(Processor.java:619)
+	at nachos.machine.Processor.run(Processor.java:101)
+	at nachos.userprog.UThread.runProgram(UThread.java:31)
+	at nachos.userprog.UThread.access$000(UThread.java:11)
+	at nachos.userprog.UThread$1.run(UThread.java:20)
+	at nachos.threads.KThread.runThread(KThread.java:170)
+	at nachos.threads.KThread.access$000(KThread.java:41)
+	at nachos.threads.KThread$1.run(KThread.java:159)
+	at nachos.machine.TCB.threadroot(TCB.java:246)
+	at nachos.machine.TCB.access$100(TCB.java:25)
+	at nachos.machine.TCB$1.run(TCB.java:99)
+	at java.lang.Thread.run(Thread.java:748)
+
+--[ read-abc-3: Test reading short file w/ length greater than file size ]--
+nachos 5.0j initializing... config interrupt timer processor console user-check grader
+
+nachos.machine.AssertionFailureError: Unknown system call!
+	at nachos.machine.Lib.assertTrue(Lib.java:89)
+	at nachos.machine.Lib.assertNotReached(Lib.java:106)
+	at nachos.userprog.UserProcess.handleSyscall(UserProcess.java:447)
+	at nachos.userprog.UserProcess.handleException(UserProcess.java:464)
+	at nachos.userprog.UserKernel.exceptionHandler(UserKernel.java:83)
+	at nachos.userprog.UserKernel$1.run(UserKernel.java:29)
+	at nachos.machine.Processor$MipsException.handle(Processor.java:619)
+	at nachos.machine.Processor.run(Processor.java:101)
+	at nachos.userprog.UThread.runProgram(UThread.java:31)
+	at nachos.userprog.UThread.access$000(UThread.java:11)
+	at nachos.userprog.UThread$1.run(UThread.java:20)
+	at nachos.threads.KThread.runThread(KThread.java:170)
+	at nachos.threads.KThread.access$000(KThread.java:41)
+	at nachos.threads.KThread$1.run(KThread.java:159)
+	at nachos.machine.TCB.threadroot(TCB.java:246)
+	at nachos.machine.TCB.access$100(TCB.java:25)
+	at nachos.machine.TCB$1.run(TCB.java:99)
+	at java.lang.Thread.run(Thread.java:748)
+
+--[ read-abc-4: Read in 10 characters, "abcdefghij", from stdin ]--
+nachos 5.0j initializing... config interrupt timer processor console user-check grader console
+
+nachos.machine.AssertionFailureError: Unknown system call!
+	at nachos.machine.Lib.assertTrue(Lib.java:89)
+	at nachos.machine.Lib.assertNotReached(Lib.java:106)
+	at nachos.userprog.UserProcess.handleSyscall(UserProcess.java:447)
+	at nachos.userprog.UserProcess.handleException(UserProcess.java:464)
+	at nachos.userprog.UserKernel.exceptionHandler(UserKernel.java:83)
+	at nachos.userprog.UserKernel$1.run(UserKernel.java:29)
+	at nachos.machine.Processor$MipsException.handle(Processor.java:619)
+	at nachos.machine.Processor.run(Processor.java:101)
+	at nachos.userprog.UThread.runProgram(UThread.java:31)
+	at nachos.userprog.UThread.access$000(UThread.java:11)
+	at nachos.userprog.UThread$1.run(UThread.java:20)
+	at nachos.threads.KThread.runThread(KThread.java:170)
+	at nachos.threads.KThread.access$000(KThread.java:41)
+	at nachos.threads.KThread$1.run(KThread.java:159)
+	at nachos.machine.TCB.threadroot(TCB.java:246)
+	at nachos.machine.TCB.access$100(TCB.java:25)
+	at nachos.machine.TCB$1.run(TCB.java:99)
+	at java.lang.Thread.run(Thread.java:748)
+
+--[ read-abc-5: Test reading small amount repeatedly from a file ]--
+nachos 5.0j initializing... config interrupt timer processor console user-check grader
+
+nachos.machine.AssertionFailureError: Unknown system call!
+	at nachos.machine.Lib.assertTrue(Lib.java:89)
+	at nachos.machine.Lib.assertNotReached(Lib.java:106)
+	at nachos.userprog.UserProcess.handleSyscall(UserProcess.java:447)
+	at nachos.userprog.UserProcess.handleException(UserProcess.java:464)
+	at nachos.userprog.UserKernel.exceptionHandler(UserKernel.java:83)
+	at nachos.userprog.UserKernel$1.run(UserKernel.java:29)
+	at nachos.machine.Processor$MipsException.handle(Processor.java:619)
+	at nachos.machine.Processor.run(Processor.java:101)
+	at nachos.userprog.UThread.runProgram(UThread.java:31)
+	at nachos.userprog.UThread.access$000(UThread.java:11)
+	at nachos.userprog.UThread$1.run(UThread.java:20)
+	at nachos.threads.KThread.runThread(KThread.java:170)
+	at nachos.threads.KThread.access$000(KThread.java:41)
+	at nachos.threads.KThread$1.run(KThread.java:159)
+	at nachos.machine.TCB.threadroot(TCB.java:246)
+	at nachos.machine.TCB.access$100(TCB.java:25)
+	at nachos.machine.TCB$1.run(TCB.java:99)
+	at java.lang.Thread.run(Thread.java:748)
+
+--[ read-err-badbuf-1: Test handling invalid buf. Read shall return -1 ]--
+nachos 5.0j initializing... config interrupt timer processor console user-check grader
+
+nachos.machine.AssertionFailureError: Unknown system call!
+	at nachos.machine.Lib.assertTrue(Lib.java:89)
+	at nachos.machine.Lib.assertNotReached(Lib.java:106)
+	at nachos.userprog.UserProcess.handleSyscall(UserProcess.java:447)
+	at nachos.userprog.UserProcess.handleException(UserProcess.java:464)
+	at nachos.userprog.UserKernel.exceptionHandler(UserKernel.java:83)
+	at nachos.userprog.UserKernel$1.run(UserKernel.java:29)
+	at nachos.machine.Processor$MipsException.handle(Processor.java:619)
+	at nachos.machine.Processor.run(Processor.java:101)
+	at nachos.userprog.UThread.runProgram(UThread.java:31)
+	at nachos.userprog.UThread.access$000(UThread.java:11)
+	at nachos.userprog.UThread$1.run(UThread.java:20)
+	at nachos.threads.KThread.runThread(KThread.java:170)
+	at nachos.threads.KThread.access$000(KThread.java:41)
+	at nachos.threads.KThread$1.run(KThread.java:159)
+	at nachos.machine.TCB.threadroot(TCB.java:246)
+	at nachos.machine.TCB.access$100(TCB.java:25)
+	at nachos.machine.TCB$1.run(TCB.java:99)
+	at java.lang.Thread.run(Thread.java:748)
+
+--[ read-err-badlen: Test handling invalid length. Read shall return -1 ]--
+nachos 5.0j initializing... config interrupt timer processor console user-check grader
+
+nachos.machine.AssertionFailureError: Unknown system call!
+	at nachos.machine.Lib.assertTrue(Lib.java:89)
+	at nachos.machine.Lib.assertNotReached(Lib.java:106)
+	at nachos.userprog.UserProcess.handleSyscall(UserProcess.java:447)
+	at nachos.userprog.UserProcess.handleException(UserProcess.java:464)
+	at nachos.userprog.UserKernel.exceptionHandler(UserKernel.java:83)
+	at nachos.userprog.UserKernel$1.run(UserKernel.java:29)
+	at nachos.machine.Processor$MipsException.handle(Processor.java:619)
+	at nachos.machine.Processor.run(Processor.java:101)
+	at nachos.userprog.UThread.runProgram(UThread.java:31)
+	at nachos.userprog.UThread.access$000(UThread.java:11)
+	at nachos.userprog.UThread$1.run(UThread.java:20)
+	at nachos.threads.KThread.runThread(KThread.java:170)
+	at nachos.threads.KThread.access$000(KThread.java:41)
+	at nachos.threads.KThread$1.run(KThread.java:159)
+	at nachos.machine.TCB.threadroot(TCB.java:246)
+	at nachos.machine.TCB.access$100(TCB.java:25)
+	at nachos.machine.TCB$1.run(TCB.java:99)
+	at java.lang.Thread.run(Thread.java:748)
+
+--[ read-err-fd-1: Test handling invalid file descriptor. Read shall return -1 ]--
+nachos 5.0j initializing... config interrupt timer processor console user-check grader
+
+nachos.machine.AssertionFailureError: Unknown system call!
+	at nachos.machine.Lib.assertTrue(Lib.java:89)
+	at nachos.machine.Lib.assertNotReached(Lib.java:106)
+	at nachos.userprog.UserProcess.handleSyscall(UserProcess.java:447)
+	at nachos.userprog.UserProcess.handleException(UserProcess.java:464)
+	at nachos.userprog.UserKernel.exceptionHandler(UserKernel.java:83)
+	at nachos.userprog.UserKernel$1.run(UserKernel.java:29)
+	at nachos.machine.Processor$MipsException.handle(Processor.java:619)
+	at nachos.machine.Processor.run(Processor.java:101)
+	at nachos.userprog.UThread.runProgram(UThread.java:31)
+	at nachos.userprog.UThread.access$000(UThread.java:11)
+	at nachos.userprog.UThread$1.run(UThread.java:20)
+	at nachos.threads.KThread.runThread(KThread.java:170)
+	at nachos.threads.KThread.access$000(KThread.java:41)
+	at nachos.threads.KThread$1.run(KThread.java:159)
+	at nachos.machine.TCB.threadroot(TCB.java:246)
+	at nachos.machine.TCB.access$100(TCB.java:25)
+	at nachos.machine.TCB$1.run(TCB.java:99)
+	at java.lang.Thread.run(Thread.java:748)
+
+--[ read-err-fd-2: Test handling out of range file descriptor. Read shall return -1 ]--
+nachos 5.0j initializing... config interrupt timer processor console user-check grader
+
+nachos.machine.AssertionFailureError: Unknown system call!
+	at nachos.machine.Lib.assertTrue(Lib.java:89)
+	at nachos.machine.Lib.assertNotReached(Lib.java:106)
+	at nachos.userprog.UserProcess.handleSyscall(UserProcess.java:447)
+	at nachos.userprog.UserProcess.handleException(UserProcess.java:464)
+	at nachos.userprog.UserKernel.exceptionHandler(UserKernel.java:83)
+	at nachos.userprog.UserKernel$1.run(UserKernel.java:29)
+	at nachos.machine.Processor$MipsException.handle(Processor.java:619)
+	at nachos.machine.Processor.run(Processor.java:101)
+	at nachos.userprog.UThread.runProgram(UThread.java:31)
+	at nachos.userprog.UThread.access$000(UThread.java:11)
+	at nachos.userprog.UThread$1.run(UThread.java:20)
+	at nachos.threads.KThread.runThread(KThread.java:170)
+	at nachos.threads.KThread.access$000(KThread.java:41)
+	at nachos.threads.KThread$1.run(KThread.java:159)
+	at nachos.machine.TCB.threadroot(TCB.java:246)
+	at nachos.machine.TCB.access$100(TCB.java:25)
+	at nachos.machine.TCB$1.run(TCB.java:99)
+	at java.lang.Thread.run(Thread.java:748)
+
+--[ read-err-fd-3: Test handling invalid buf, writing to readonly page. Read shall return -1 ]--
+nachos 5.0j initializing... config interrupt timer processor console user-check grader
+
+nachos.machine.AssertionFailureError: Unknown system call!
+	at nachos.machine.Lib.assertTrue(Lib.java:89)
+	at nachos.machine.Lib.assertNotReached(Lib.java:106)
+	at nachos.userprog.UserProcess.handleSyscall(UserProcess.java:447)
+	at nachos.userprog.UserProcess.handleException(UserProcess.java:464)
+	at nachos.userprog.UserKernel.exceptionHandler(UserKernel.java:83)
+	at nachos.userprog.UserKernel$1.run(UserKernel.java:29)
+	at nachos.machine.Processor$MipsException.handle(Processor.java:619)
+	at nachos.machine.Processor.run(Processor.java:101)
+	at nachos.userprog.UThread.runProgram(UThread.java:31)
+	at nachos.userprog.UThread.access$000(UThread.java:11)
+	at nachos.userprog.UThread$1.run(UThread.java:20)
+	at nachos.threads.KThread.runThread(KThread.java:170)
+	at nachos.threads.KThread.access$000(KThread.java:41)
+	at nachos.threads.KThread$1.run(KThread.java:159)
+	at nachos.machine.TCB.threadroot(TCB.java:246)
+	at nachos.machine.TCB.access$100(TCB.java:25)
+	at nachos.machine.TCB$1.run(TCB.java:99)
+	at java.lang.Thread.run(Thread.java:748)
+
+--[ read-long: Test reading large amount from file ]--
+nachos 5.0j initializing... config interrupt timer processor console user-check grader
+
+nachos.machine.AssertionFailureError: Unknown system call!
+	at nachos.machine.Lib.assertTrue(Lib.java:89)
+	at nachos.machine.Lib.assertNotReached(Lib.java:106)
+	at nachos.userprog.UserProcess.handleSyscall(UserProcess.java:447)
+	at nachos.userprog.UserProcess.handleException(UserProcess.java:464)
+	at nachos.userprog.UserKernel.exceptionHandler(UserKernel.java:83)
+	at nachos.userprog.UserKernel$1.run(UserKernel.java:29)
+	at nachos.machine.Processor$MipsException.handle(Processor.java:619)
+	at nachos.machine.Processor.run(Processor.java:101)
+	at nachos.userprog.UThread.runProgram(UThread.java:31)
+	at nachos.userprog.UThread.access$000(UThread.java:11)
+	at nachos.userprog.UThread$1.run(UThread.java:20)
+	at nachos.threads.KThread.runThread(KThread.java:170)
+	at nachos.threads.KThread.access$000(KThread.java:41)
+	at nachos.threads.KThread$1.run(KThread.java:159)
+	at nachos.machine.TCB.threadroot(TCB.java:246)
+	at nachos.machine.TCB.access$100(TCB.java:25)
+	at nachos.machine.TCB$1.run(TCB.java:99)
+	at java.lang.Thread.run(Thread.java:748)
+
+--[ write-abc-1: Test writing small amount w/ length less than buf size ]--
+nachos 5.0j initializing... config interrupt timer processor console user-check grader
+
+nachos.machine.AssertionFailureError: Unknown system call!
+	at nachos.machine.Lib.assertTrue(Lib.java:89)
+	at nachos.machine.Lib.assertNotReached(Lib.java:106)
+	at nachos.userprog.UserProcess.handleSyscall(UserProcess.java:447)
+	at nachos.userprog.UserProcess.handleException(UserProcess.java:464)
+	at nachos.userprog.UserKernel.exceptionHandler(UserKernel.java:83)
+	at nachos.userprog.UserKernel$1.run(UserKernel.java:29)
+	at nachos.machine.Processor$MipsException.handle(Processor.java:619)
+	at nachos.machine.Processor.run(Processor.java:101)
+	at nachos.userprog.UThread.runProgram(UThread.java:31)
+	at nachos.userprog.UThread.access$000(UThread.java:11)
+	at nachos.userprog.UThread$1.run(UThread.java:20)
+	at nachos.threads.KThread.runThread(KThread.java:170)
+	at nachos.threads.KThread.access$000(KThread.java:41)
+	at nachos.threads.KThread$1.run(KThread.java:159)
+	at nachos.machine.TCB.threadroot(TCB.java:246)
+	at nachos.machine.TCB.access$100(TCB.java:25)
+	at nachos.machine.TCB$1.run(TCB.java:99)
+	at java.lang.Thread.run(Thread.java:748)
+
+--[ write-abc-2: Test writing small amount w/ length equal to buf size ]--
+nachos 5.0j initializing... config interrupt timer processor console user-check grader
+
+nachos.machine.AssertionFailureError: Unknown system call!
+	at nachos.machine.Lib.assertTrue(Lib.java:89)
+	at nachos.machine.Lib.assertNotReached(Lib.java:106)
+	at nachos.userprog.UserProcess.handleSyscall(UserProcess.java:447)
+	at nachos.userprog.UserProcess.handleException(UserProcess.java:464)
+	at nachos.userprog.UserKernel.exceptionHandler(UserKernel.java:83)
+	at nachos.userprog.UserKernel$1.run(UserKernel.java:29)
+	at nachos.machine.Processor$MipsException.handle(Processor.java:619)
+	at nachos.machine.Processor.run(Processor.java:101)
+	at nachos.userprog.UThread.runProgram(UThread.java:31)
+	at nachos.userprog.UThread.access$000(UThread.java:11)
+	at nachos.userprog.UThread$1.run(UThread.java:20)
+	at nachos.threads.KThread.runThread(KThread.java:170)
+	at nachos.threads.KThread.access$000(KThread.java:41)
+	at nachos.threads.KThread$1.run(KThread.java:159)
+	at nachos.machine.TCB.threadroot(TCB.java:246)
+	at nachos.machine.TCB.access$100(TCB.java:25)
+	at nachos.machine.TCB$1.run(TCB.java:99)
+	at java.lang.Thread.run(Thread.java:748)
+
+--[ write-abc-3: Test writing small amount to stdout ]--
+nachos 5.0j initializing... config interrupt timer processor console user-check grader
+
+nachos.machine.AssertionFailureError: Unknown system call!
+	at nachos.machine.Lib.assertTrue(Lib.java:89)
+	at nachos.machine.Lib.assertNotReached(Lib.java:106)
+	at nachos.userprog.UserProcess.handleSyscall(UserProcess.java:447)
+	at nachos.userprog.UserProcess.handleException(UserProcess.java:464)
+	at nachos.userprog.UserKernel.exceptionHandler(UserKernel.java:83)
+	at nachos.userprog.UserKernel$1.run(UserKernel.java:29)
+	at nachos.machine.Processor$MipsException.handle(Processor.java:619)
+	at nachos.machine.Processor.run(Processor.java:101)
+	at nachos.userprog.UThread.runProgram(UThread.java:31)
+	at nachos.userprog.UThread.access$000(UThread.java:11)
+	at nachos.userprog.UThread$1.run(UThread.java:20)
+	at nachos.threads.KThread.runThread(KThread.java:170)
+	at nachos.threads.KThread.access$000(KThread.java:41)
+	at nachos.threads.KThread$1.run(KThread.java:159)
+	at nachos.machine.TCB.threadroot(TCB.java:246)
+	at nachos.machine.TCB.access$100(TCB.java:25)
+	at nachos.machine.TCB$1.run(TCB.java:99)
+	at java.lang.Thread.run(Thread.java:748)
+
+--[ write-abc-4: Test writing small amount repeatedly to a file ]--
+nachos 5.0j initializing... config interrupt timer processor console user-check grader
+
+nachos.machine.AssertionFailureError: Unknown system call!
+	at nachos.machine.Lib.assertTrue(Lib.java:89)
+	at nachos.machine.Lib.assertNotReached(Lib.java:106)
+	at nachos.userprog.UserProcess.handleSyscall(UserProcess.java:447)
+	at nachos.userprog.UserProcess.handleException(UserProcess.java:464)
+	at nachos.userprog.UserKernel.exceptionHandler(UserKernel.java:83)
+	at nachos.userprog.UserKernel$1.run(UserKernel.java:29)
+	at nachos.machine.Processor$MipsException.handle(Processor.java:619)
+	at nachos.machine.Processor.run(Processor.java:101)
+	at nachos.userprog.UThread.runProgram(UThread.java:31)
+	at nachos.userprog.UThread.access$000(UThread.java:11)
+	at nachos.userprog.UThread$1.run(UThread.java:20)
+	at nachos.threads.KThread.runThread(KThread.java:170)
+	at nachos.threads.KThread.access$000(KThread.java:41)
+	at nachos.threads.KThread$1.run(KThread.java:159)
+	at nachos.machine.TCB.threadroot(TCB.java:246)
+	at nachos.machine.TCB.access$100(TCB.java:25)
+	at nachos.machine.TCB$1.run(TCB.java:99)
+	at java.lang.Thread.run(Thread.java:748)
+
+--[ write-err-badbuf-1: Test handling invalid buf. Read shall return -1 ]--
+nachos 5.0j initializing... config interrupt timer processor console user-check grader
+
+nachos.machine.AssertionFailureError: Unknown system call!
+	at nachos.machine.Lib.assertTrue(Lib.java:89)
+	at nachos.machine.Lib.assertNotReached(Lib.java:106)
+	at nachos.userprog.UserProcess.handleSyscall(UserProcess.java:447)
+	at nachos.userprog.UserProcess.handleException(UserProcess.java:464)
+	at nachos.userprog.UserKernel.exceptionHandler(UserKernel.java:83)
+	at nachos.userprog.UserKernel$1.run(UserKernel.java:29)
+	at nachos.machine.Processor$MipsException.handle(Processor.java:619)
+	at nachos.machine.Processor.run(Processor.java:101)
+	at nachos.userprog.UThread.runProgram(UThread.java:31)
+	at nachos.userprog.UThread.access$000(UThread.java:11)
+	at nachos.userprog.UThread$1.run(UThread.java:20)
+	at nachos.threads.KThread.runThread(KThread.java:170)
+	at nachos.threads.KThread.access$000(KThread.java:41)
+	at nachos.threads.KThread$1.run(KThread.java:159)
+	at nachos.machine.TCB.threadroot(TCB.java:246)
+	at nachos.machine.TCB.access$100(TCB.java:25)
+	at nachos.machine.TCB$1.run(TCB.java:99)
+	at java.lang.Thread.run(Thread.java:748)
+
+--[ write-err-badlen: Test handling invalid length. Read shall return -1 ]--
+nachos 5.0j initializing... config interrupt timer processor console user-check grader
+
+nachos.machine.AssertionFailureError: Unknown system call!
+	at nachos.machine.Lib.assertTrue(Lib.java:89)
+	at nachos.machine.Lib.assertNotReached(Lib.java:106)
+	at nachos.userprog.UserProcess.handleSyscall(UserProcess.java:447)
+	at nachos.userprog.UserProcess.handleException(UserProcess.java:464)
+	at nachos.userprog.UserKernel.exceptionHandler(UserKernel.java:83)
+	at nachos.userprog.UserKernel$1.run(UserKernel.java:29)
+	at nachos.machine.Processor$MipsException.handle(Processor.java:619)
+	at nachos.machine.Processor.run(Processor.java:101)
+	at nachos.userprog.UThread.runProgram(UThread.java:31)
+	at nachos.userprog.UThread.access$000(UThread.java:11)
+	at nachos.userprog.UThread$1.run(UThread.java:20)
+	at nachos.threads.KThread.runThread(KThread.java:170)
+	at nachos.threads.KThread.access$000(KThread.java:41)
+	at nachos.threads.KThread$1.run(KThread.java:159)
+	at nachos.machine.TCB.threadroot(TCB.java:246)
+	at nachos.machine.TCB.access$100(TCB.java:25)
+	at nachos.machine.TCB$1.run(TCB.java:99)
+	at java.lang.Thread.run(Thread.java:748)
+
+--[ write-err-fd-1: Test handling invalid file descriptor when calling write. Read shall return -1 ]--
+nachos 5.0j initializing... config interrupt timer processor console user-check grader
+
+nachos.machine.AssertionFailureError: Unknown system call!
+	at nachos.machine.Lib.assertTrue(Lib.java:89)
+	at nachos.machine.Lib.assertNotReached(Lib.java:106)
+	at nachos.userprog.UserProcess.handleSyscall(UserProcess.java:447)
+	at nachos.userprog.UserProcess.handleException(UserProcess.java:464)
+	at nachos.userprog.UserKernel.exceptionHandler(UserKernel.java:83)
+	at nachos.userprog.UserKernel$1.run(UserKernel.java:29)
+	at nachos.machine.Processor$MipsException.handle(Processor.java:619)
+	at nachos.machine.Processor.run(Processor.java:101)
+	at nachos.userprog.UThread.runProgram(UThread.java:31)
+	at nachos.userprog.UThread.access$000(UThread.java:11)
+	at nachos.userprog.UThread$1.run(UThread.java:20)
+	at nachos.threads.KThread.runThread(KThread.java:170)
+	at nachos.threads.KThread.access$000(KThread.java:41)
+	at nachos.threads.KThread$1.run(KThread.java:159)
+	at nachos.machine.TCB.threadroot(TCB.java:246)
+	at nachos.machine.TCB.access$100(TCB.java:25)
+	at nachos.machine.TCB$1.run(TCB.java:99)
+	at java.lang.Thread.run(Thread.java:748)
+
+--[ write-err-fd-2: Test handling out of range file descriptor when calling write. Read shall return -1 ]--
+nachos 5.0j initializing... config interrupt timer processor console user-check grader
+
+nachos.machine.AssertionFailureError: Unknown system call!
+	at nachos.machine.Lib.assertTrue(Lib.java:89)
+	at nachos.machine.Lib.assertNotReached(Lib.java:106)
+	at nachos.userprog.UserProcess.handleSyscall(UserProcess.java:447)
+	at nachos.userprog.UserProcess.handleException(UserProcess.java:464)
+	at nachos.userprog.UserKernel.exceptionHandler(UserKernel.java:83)
+	at nachos.userprog.UserKernel$1.run(UserKernel.java:29)
+	at nachos.machine.Processor$MipsException.handle(Processor.java:619)
+	at nachos.machine.Processor.run(Processor.java:101)
+	at nachos.userprog.UThread.runProgram(UThread.java:31)
+	at nachos.userprog.UThread.access$000(UThread.java:11)
+	at nachos.userprog.UThread$1.run(UThread.java:20)
+	at nachos.threads.KThread.runThread(KThread.java:170)
+	at nachos.threads.KThread.access$000(KThread.java:41)
+	at nachos.threads.KThread$1.run(KThread.java:159)
+	at nachos.machine.TCB.threadroot(TCB.java:246)
+	at nachos.machine.TCB.access$100(TCB.java:25)
+	at nachos.machine.TCB$1.run(TCB.java:99)
+	at java.lang.Thread.run(Thread.java:748)
+
+--[ write-err-fd-3: Test handling out of range file descriptor when calling write. Read shall return -1 ]--
+nachos 5.0j initializing... config interrupt timer processor console user-check grader
+
+nachos.machine.AssertionFailureError: Unknown system call!
+	at nachos.machine.Lib.assertTrue(Lib.java:89)
+	at nachos.machine.Lib.assertNotReached(Lib.java:106)
+	at nachos.userprog.UserProcess.handleSyscall(UserProcess.java:447)
+	at nachos.userprog.UserProcess.handleException(UserProcess.java:464)
+	at nachos.userprog.UserKernel.exceptionHandler(UserKernel.java:83)
+	at nachos.userprog.UserKernel$1.run(UserKernel.java:29)
+	at nachos.machine.Processor$MipsException.handle(Processor.java:619)
+	at nachos.machine.Processor.run(Processor.java:101)
+	at nachos.userprog.UThread.runProgram(UThread.java:31)
+	at nachos.userprog.UThread.access$000(UThread.java:11)
+	at nachos.userprog.UThread$1.run(UThread.java:20)
+	at nachos.threads.KThread.runThread(KThread.java:170)
+	at nachos.threads.KThread.access$000(KThread.java:41)
+	at nachos.threads.KThread$1.run(KThread.java:159)
+	at nachos.machine.TCB.threadroot(TCB.java:246)
+	at nachos.machine.TCB.access$100(TCB.java:25)
+	at nachos.machine.TCB$1.run(TCB.java:99)
+	at java.lang.Thread.run(Thread.java:748)
+
+--[ write-long: Test writing large amount to file ]--
+nachos 5.0j initializing... config interrupt timer processor console user-check grader
+
+nachos.machine.AssertionFailureError: Unknown system call!
+	at nachos.machine.Lib.assertTrue(Lib.java:89)
+	at nachos.machine.Lib.assertNotReached(Lib.java:106)
+	at nachos.userprog.UserProcess.handleSyscall(UserProcess.java:447)
+	at nachos.userprog.UserProcess.handleException(UserProcess.java:464)
+	at nachos.userprog.UserKernel.exceptionHandler(UserKernel.java:83)
+	at nachos.userprog.UserKernel$1.run(UserKernel.java:29)
+	at nachos.machine.Processor$MipsException.handle(Processor.java:619)
+	at nachos.machine.Processor.run(Processor.java:101)
+	at nachos.userprog.UThread.runProgram(UThread.java:31)
+	at nachos.userprog.UThread.access$000(UThread.java:11)
+	at nachos.userprog.UThread$1.run(UThread.java:20)
+	at nachos.threads.KThread.runThread(KThread.java:170)
+	at nachos.threads.KThread.access$000(KThread.java:41)
+	at nachos.threads.KThread$1.run(KThread.java:159)
+	at nachos.machine.TCB.threadroot(TCB.java:246)
+	at nachos.machine.TCB.access$100(TCB.java:25)
+	at nachos.machine.TCB$1.run(TCB.java:99)
+	at java.lang.Thread.run(Thread.java:748)
+
+--[ write1: Write a string to stdout, one byte at a time ]--
+nachos 5.0j initializing... config interrupt timer processor console user-check grader
+
+nachos.machine.AssertionFailureError: Unknown system call!
+	at nachos.machine.Lib.assertTrue(Lib.java:89)
+	at nachos.machine.Lib.assertNotReached(Lib.java:106)
+	at nachos.userprog.UserProcess.handleSyscall(UserProcess.java:447)
+	at nachos.userprog.UserProcess.handleException(UserProcess.java:464)
+	at nachos.userprog.UserKernel.exceptionHandler(UserKernel.java:83)
+	at nachos.userprog.UserKernel$1.run(UserKernel.java:29)
+	at nachos.machine.Processor$MipsException.handle(Processor.java:619)
+	at nachos.machine.Processor.run(Processor.java:101)
+	at nachos.userprog.UThread.runProgram(UThread.java:31)
+	at nachos.userprog.UThread.access$000(UThread.java:11)
+	at nachos.userprog.UThread$1.run(UThread.java:20)
+	at nachos.threads.KThread.runThread(KThread.java:170)
+	at nachos.threads.KThread.access$000(KThread.java:41)
+	at nachos.threads.KThread$1.run(KThread.java:159)
+	at nachos.machine.TCB.threadroot(TCB.java:246)
+	at nachos.machine.TCB.access$100(TCB.java:25)
+	at nachos.machine.TCB$1.run(TCB.java:99)
+	at java.lang.Thread.run(Thread.java:748)
+
+--[ write10: Test the write system call under a variety of good and bad conditions ]--
+nachos 5.0j initializing... config interrupt timer processor console user-check grader
+
+nachos.machine.AssertionFailureError: Unknown system call!
+	at nachos.machine.Lib.assertTrue(Lib.java:89)
+	at nachos.machine.Lib.assertNotReached(Lib.java:106)
+	at nachos.userprog.UserProcess.handleSyscall(UserProcess.java:447)
+	at nachos.userprog.UserProcess.handleException(UserProcess.java:464)
+	at nachos.userprog.UserKernel.exceptionHandler(UserKernel.java:83)
+	at nachos.userprog.UserKernel$1.run(UserKernel.java:29)
+	at nachos.machine.Processor$MipsException.handle(Processor.java:619)
+	at nachos.machine.Processor.run(Processor.java:101)
+	at nachos.userprog.UThread.runProgram(UThread.java:31)
+	at nachos.userprog.UThread.access$000(UThread.java:11)
+	at nachos.userprog.UThread$1.run(UThread.java:20)
+	at nachos.threads.KThread.runThread(KThread.java:170)
+	at nachos.threads.KThread.access$000(KThread.java:41)
+	at nachos.threads.KThread$1.run(KThread.java:159)
+	at nachos.machine.TCB.threadroot(TCB.java:246)
+	at nachos.machine.TCB.access$100(TCB.java:25)
+	at nachos.machine.TCB$1.run(TCB.java:99)
+	at java.lang.Thread.run(Thread.java:748)
+
+--[ open1: Test open single file and get valid fd ]--
+nachos 5.0j initializing... config interrupt timer processor console user-check grader
+
+nachos.machine.AssertionFailureError: Unknown system call!
+	at nachos.machine.Lib.assertTrue(Lib.java:89)
+	at nachos.machine.Lib.assertNotReached(Lib.java:106)
+	at nachos.userprog.UserProcess.handleSyscall(UserProcess.java:447)
+	at nachos.userprog.UserProcess.handleException(UserProcess.java:464)
+	at nachos.userprog.UserKernel.exceptionHandler(UserKernel.java:83)
+	at nachos.userprog.UserKernel$1.run(UserKernel.java:29)
+	at nachos.machine.Processor$MipsException.handle(Processor.java:619)
+	at nachos.machine.Processor.run(Processor.java:101)
+	at nachos.userprog.UThread.runProgram(UThread.java:31)
+	at nachos.userprog.UThread.access$000(UThread.java:11)
+	at nachos.userprog.UThread$1.run(UThread.java:20)
+	at nachos.threads.KThread.runThread(KThread.java:170)
+	at nachos.threads.KThread.access$000(KThread.java:41)
+	at nachos.threads.KThread$1.run(KThread.java:159)
+	at nachos.machine.TCB.threadroot(TCB.java:246)
+	at nachos.machine.TCB.access$100(TCB.java:25)
+	at nachos.machine.TCB$1.run(TCB.java:99)
+	at java.lang.Thread.run(Thread.java:748)
+
+--[ open2: Test open a file that does not exist ]--
+nachos 5.0j initializing... config interrupt timer processor console user-check grader
+
+nachos.machine.AssertionFailureError: Unknown system call!
+	at nachos.machine.Lib.assertTrue(Lib.java:89)
+	at nachos.machine.Lib.assertNotReached(Lib.java:106)
+	at nachos.userprog.UserProcess.handleSyscall(UserProcess.java:447)
+	at nachos.userprog.UserProcess.handleException(UserProcess.java:464)
+	at nachos.userprog.UserKernel.exceptionHandler(UserKernel.java:83)
+	at nachos.userprog.UserKernel$1.run(UserKernel.java:29)
+	at nachos.machine.Processor$MipsException.handle(Processor.java:619)
+	at nachos.machine.Processor.run(Processor.java:101)
+	at nachos.userprog.UThread.runProgram(UThread.java:31)
+	at nachos.userprog.UThread.access$000(UThread.java:11)
+	at nachos.userprog.UThread$1.run(UThread.java:20)
+	at nachos.threads.KThread.runThread(KThread.java:170)
+	at nachos.threads.KThread.access$000(KThread.java:41)
+	at nachos.threads.KThread$1.run(KThread.java:159)
+	at nachos.machine.TCB.threadroot(TCB.java:246)
+	at nachos.machine.TCB.access$100(TCB.java:25)
+	at nachos.machine.TCB$1.run(TCB.java:99)
+	at java.lang.Thread.run(Thread.java:748)
+
+--[ open3: Check graceful failure of open when OpenFileLimit exceeded ]--
+nachos 5.0j initializing... config interrupt timer processor console user-check grader
+
+nachos.machine.AssertionFailureError: Unknown system call!
+	at nachos.machine.Lib.assertTrue(Lib.java:89)
+	at nachos.machine.Lib.assertNotReached(Lib.java:106)
+	at nachos.userprog.UserProcess.handleSyscall(UserProcess.java:447)
+	at nachos.userprog.UserProcess.handleException(UserProcess.java:464)
+	at nachos.userprog.UserKernel.exceptionHandler(UserKernel.java:83)
+	at nachos.userprog.UserKernel$1.run(UserKernel.java:29)
+	at nachos.machine.Processor$MipsException.handle(Processor.java:619)
+	at nachos.machine.Processor.run(Processor.java:101)
+	at nachos.userprog.UThread.runProgram(UThread.java:31)
+	at nachos.userprog.UThread.access$000(UThread.java:11)
+	at nachos.userprog.UThread$1.run(UThread.java:20)
+	at nachos.threads.KThread.runThread(KThread.java:170)
+	at nachos.threads.KThread.access$000(KThread.java:41)
+	at nachos.threads.KThread$1.run(KThread.java:159)
+	at nachos.machine.TCB.threadroot(TCB.java:246)
+	at nachos.machine.TCB.access$100(TCB.java:25)
+	at nachos.machine.TCB$1.run(TCB.java:99)
+	at java.lang.Thread.run(Thread.java:748)
+
+--[ open4: Check that duplicate fd is not given for two different files ]--
+nachos 5.0j initializing... config interrupt timer processor console user-check grader
+
+nachos.machine.AssertionFailureError: Unknown system call!
+	at nachos.machine.Lib.assertTrue(Lib.java:89)
+	at nachos.machine.Lib.assertNotReached(Lib.java:106)
+	at nachos.userprog.UserProcess.handleSyscall(UserProcess.java:447)
+	at nachos.userprog.UserProcess.handleException(UserProcess.java:464)
+	at nachos.userprog.UserKernel.exceptionHandler(UserKernel.java:83)
+	at nachos.userprog.UserKernel$1.run(UserKernel.java:29)
+	at nachos.machine.Processor$MipsException.handle(Processor.java:619)
+	at nachos.machine.Processor.run(Processor.java:101)
+	at nachos.userprog.UThread.runProgram(UThread.java:31)
+	at nachos.userprog.UThread.access$000(UThread.java:11)
+	at nachos.userprog.UThread$1.run(UThread.java:20)
+	at nachos.threads.KThread.runThread(KThread.java:170)
+	at nachos.threads.KThread.access$000(KThread.java:41)
+	at nachos.threads.KThread$1.run(KThread.java:159)
+	at nachos.machine.TCB.threadroot(TCB.java:246)
+	at nachos.machine.TCB.access$100(TCB.java:25)
+	at nachos.machine.TCB$1.run(TCB.java:99)
+	at java.lang.Thread.run(Thread.java:748)
+
+--[ open5: Check that duplicate fd is not given for same file ]--
+nachos 5.0j initializing... config interrupt timer processor console user-check grader
+
+nachos.machine.AssertionFailureError: Unknown system call!
+	at nachos.machine.Lib.assertTrue(Lib.java:89)
+	at nachos.machine.Lib.assertNotReached(Lib.java:106)
+	at nachos.userprog.UserProcess.handleSyscall(UserProcess.java:447)
+	at nachos.userprog.UserProcess.handleException(UserProcess.java:464)
+	at nachos.userprog.UserKernel.exceptionHandler(UserKernel.java:83)
+	at nachos.userprog.UserKernel$1.run(UserKernel.java:29)
+	at nachos.machine.Processor$MipsException.handle(Processor.java:619)
+	at nachos.machine.Processor.run(Processor.java:101)
+	at nachos.userprog.UThread.runProgram(UThread.java:31)
+	at nachos.userprog.UThread.access$000(UThread.java:11)
+	at nachos.userprog.UThread$1.run(UThread.java:20)
+	at nachos.threads.KThread.runThread(KThread.java:170)
+	at nachos.threads.KThread.access$000(KThread.java:41)
+	at nachos.threads.KThread$1.run(KThread.java:159)
+	at nachos.machine.TCB.threadroot(TCB.java:246)
+	at nachos.machine.TCB.access$100(TCB.java:25)
+	at nachos.machine.TCB$1.run(TCB.java:99)
+	at java.lang.Thread.run(Thread.java:748)
+
+--[ open6: Check stdin and stdout not messed with i.e. fd is not assigned to new file ]--
+nachos 5.0j initializing... config interrupt timer processor console user-check grader
+
+nachos.machine.AssertionFailureError: Unknown system call!
+	at nachos.machine.Lib.assertTrue(Lib.java:89)
+	at nachos.machine.Lib.assertNotReached(Lib.java:106)
+	at nachos.userprog.UserProcess.handleSyscall(UserProcess.java:447)
+	at nachos.userprog.UserProcess.handleException(UserProcess.java:464)
+	at nachos.userprog.UserKernel.exceptionHandler(UserKernel.java:83)
+	at nachos.userprog.UserKernel$1.run(UserKernel.java:29)
+	at nachos.machine.Processor$MipsException.handle(Processor.java:619)
+	at nachos.machine.Processor.run(Processor.java:101)
+	at nachos.userprog.UThread.runProgram(UThread.java:31)
+	at nachos.userprog.UThread.access$000(UThread.java:11)
+	at nachos.userprog.UThread$1.run(UThread.java:20)
+	at nachos.threads.KThread.runThread(KThread.java:170)
+	at nachos.threads.KThread.access$000(KThread.java:41)
+	at nachos.threads.KThread$1.run(KThread.java:159)
+	at nachos.machine.TCB.threadroot(TCB.java:246)
+	at nachos.machine.TCB.access$100(TCB.java:25)
+	at nachos.machine.TCB$1.run(TCB.java:99)
+	at java.lang.Thread.run(Thread.java:748)
+
+--[ open7: Check duplicate fd not given for many files ]--
+nachos 5.0j initializing... config interrupt timer processor console user-check grader
+
+nachos.machine.AssertionFailureError: Unknown system call!
+	at nachos.machine.Lib.assertTrue(Lib.java:89)
+	at nachos.machine.Lib.assertNotReached(Lib.java:106)
+	at nachos.userprog.UserProcess.handleSyscall(UserProcess.java:447)
+	at nachos.userprog.UserProcess.handleException(UserProcess.java:464)
+	at nachos.userprog.UserKernel.exceptionHandler(UserKernel.java:83)
+	at nachos.userprog.UserKernel$1.run(UserKernel.java:29)
+	at nachos.machine.Processor$MipsException.handle(Processor.java:619)
+	at nachos.machine.Processor.run(Processor.java:101)
+	at nachos.userprog.UThread.runProgram(UThread.java:31)
+	at nachos.userprog.UThread.access$000(UThread.java:11)
+	at nachos.userprog.UThread$1.run(UThread.java:20)
+	at nachos.threads.KThread.runThread(KThread.java:170)
+	at nachos.threads.KThread.access$000(KThread.java:41)
+	at nachos.threads.KThread$1.run(KThread.java:159)
+	at nachos.machine.TCB.threadroot(TCB.java:246)
+	at nachos.machine.TCB.access$100(TCB.java:25)
+	at nachos.machine.TCB$1.run(TCB.java:99)
+	at java.lang.Thread.run(Thread.java:748)
+
+--[ creat1: Test creat single file and get valid fd ]--
+nachos 5.0j initializing... config interrupt timer processor console user-check grader
+
+nachos.machine.AssertionFailureError: Unknown system call!
+	at nachos.machine.Lib.assertTrue(Lib.java:89)
+	at nachos.machine.Lib.assertNotReached(Lib.java:106)
+	at nachos.userprog.UserProcess.handleSyscall(UserProcess.java:447)
+	at nachos.userprog.UserProcess.handleException(UserProcess.java:464)
+	at nachos.userprog.UserKernel.exceptionHandler(UserKernel.java:83)
+	at nachos.userprog.UserKernel$1.run(UserKernel.java:29)
+	at nachos.machine.Processor$MipsException.handle(Processor.java:619)
+	at nachos.machine.Processor.run(Processor.java:101)
+	at nachos.userprog.UThread.runProgram(UThread.java:31)
+	at nachos.userprog.UThread.access$000(UThread.java:11)
+	at nachos.userprog.UThread$1.run(UThread.java:20)
+	at nachos.threads.KThread.runThread(KThread.java:170)
+	at nachos.threads.KThread.access$000(KThread.java:41)
+	at nachos.threads.KThread$1.run(KThread.java:159)
+	at nachos.machine.TCB.threadroot(TCB.java:246)
+	at nachos.machine.TCB.access$100(TCB.java:25)
+	at nachos.machine.TCB$1.run(TCB.java:99)
+	at java.lang.Thread.run(Thread.java:748)
+
+--[ creat2: Test creat a file that does not exist ]--
+nachos 5.0j initializing... config interrupt timer processor console user-check grader
+
+nachos.machine.AssertionFailureError: Unknown system call!
+	at nachos.machine.Lib.assertTrue(Lib.java:89)
+	at nachos.machine.Lib.assertNotReached(Lib.java:106)
+	at nachos.userprog.UserProcess.handleSyscall(UserProcess.java:447)
+	at nachos.userprog.UserProcess.handleException(UserProcess.java:464)
+	at nachos.userprog.UserKernel.exceptionHandler(UserKernel.java:83)
+	at nachos.userprog.UserKernel$1.run(UserKernel.java:29)
+	at nachos.machine.Processor$MipsException.handle(Processor.java:619)
+	at nachos.machine.Processor.run(Processor.java:101)
+	at nachos.userprog.UThread.runProgram(UThread.java:31)
+	at nachos.userprog.UThread.access$000(UThread.java:11)
+	at nachos.userprog.UThread$1.run(UThread.java:20)
+	at nachos.threads.KThread.runThread(KThread.java:170)
+	at nachos.threads.KThread.access$000(KThread.java:41)
+	at nachos.threads.KThread$1.run(KThread.java:159)
+	at nachos.machine.TCB.threadroot(TCB.java:246)
+	at nachos.machine.TCB.access$100(TCB.java:25)
+	at nachos.machine.TCB$1.run(TCB.java:99)
+	at java.lang.Thread.run(Thread.java:748)
+
+--[ creat3: Check graceful failure of open when OpenFileLimit exceeded ]--
+nachos 5.0j initializing... config interrupt timer processor console user-check grader
+
+nachos.machine.AssertionFailureError: Unknown system call!
+	at nachos.machine.Lib.assertTrue(Lib.java:89)
+	at nachos.machine.Lib.assertNotReached(Lib.java:106)
+	at nachos.userprog.UserProcess.handleSyscall(UserProcess.java:447)
+	at nachos.userprog.UserProcess.handleException(UserProcess.java:464)
+	at nachos.userprog.UserKernel.exceptionHandler(UserKernel.java:83)
+	at nachos.userprog.UserKernel$1.run(UserKernel.java:29)
+	at nachos.machine.Processor$MipsException.handle(Processor.java:619)
+	at nachos.machine.Processor.run(Processor.java:101)
+	at nachos.userprog.UThread.runProgram(UThread.java:31)
+	at nachos.userprog.UThread.access$000(UThread.java:11)
+	at nachos.userprog.UThread$1.run(UThread.java:20)
+	at nachos.threads.KThread.runThread(KThread.java:170)
+	at nachos.threads.KThread.access$000(KThread.java:41)
+	at nachos.threads.KThread$1.run(KThread.java:159)
+	at nachos.machine.TCB.threadroot(TCB.java:246)
+	at nachos.machine.TCB.access$100(TCB.java:25)
+	at nachos.machine.TCB$1.run(TCB.java:99)
+	at java.lang.Thread.run(Thread.java:748)
+
+--[ creat4: Check that duplicate fd is not given for two different files ]--
+nachos 5.0j initializing... config interrupt timer processor console user-check grader
+
+nachos.machine.AssertionFailureError: Unknown system call!
+	at nachos.machine.Lib.assertTrue(Lib.java:89)
+	at nachos.machine.Lib.assertNotReached(Lib.java:106)
+	at nachos.userprog.UserProcess.handleSyscall(UserProcess.java:447)
+	at nachos.userprog.UserProcess.handleException(UserProcess.java:464)
+	at nachos.userprog.UserKernel.exceptionHandler(UserKernel.java:83)
+	at nachos.userprog.UserKernel$1.run(UserKernel.java:29)
+	at nachos.machine.Processor$MipsException.handle(Processor.java:619)
+	at nachos.machine.Processor.run(Processor.java:101)
+	at nachos.userprog.UThread.runProgram(UThread.java:31)
+	at nachos.userprog.UThread.access$000(UThread.java:11)
+	at nachos.userprog.UThread$1.run(UThread.java:20)
+	at nachos.threads.KThread.runThread(KThread.java:170)
+	at nachos.threads.KThread.access$000(KThread.java:41)
+	at nachos.threads.KThread$1.run(KThread.java:159)
+	at nachos.machine.TCB.threadroot(TCB.java:246)
+	at nachos.machine.TCB.access$100(TCB.java:25)
+	at nachos.machine.TCB$1.run(TCB.java:99)
+	at java.lang.Thread.run(Thread.java:748)
+
+--[ creat5: Check that duplicate fd is not given for same file ]--
+nachos 5.0j initializing... config interrupt timer processor console user-check grader
+
+nachos.machine.AssertionFailureError: Unknown system call!
+	at nachos.machine.Lib.assertTrue(Lib.java:89)
+	at nachos.machine.Lib.assertNotReached(Lib.java:106)
+	at nachos.userprog.UserProcess.handleSyscall(UserProcess.java:447)
+	at nachos.userprog.UserProcess.handleException(UserProcess.java:464)
+	at nachos.userprog.UserKernel.exceptionHandler(UserKernel.java:83)
+	at nachos.userprog.UserKernel$1.run(UserKernel.java:29)
+	at nachos.machine.Processor$MipsException.handle(Processor.java:619)
+	at nachos.machine.Processor.run(Processor.java:101)
+	at nachos.userprog.UThread.runProgram(UThread.java:31)
+	at nachos.userprog.UThread.access$000(UThread.java:11)
+	at nachos.userprog.UThread$1.run(UThread.java:20)
+	at nachos.threads.KThread.runThread(KThread.java:170)
+	at nachos.threads.KThread.access$000(KThread.java:41)
+	at nachos.threads.KThread$1.run(KThread.java:159)
+	at nachos.machine.TCB.threadroot(TCB.java:246)
+	at nachos.machine.TCB.access$100(TCB.java:25)
+	at nachos.machine.TCB$1.run(TCB.java:99)
+	at java.lang.Thread.run(Thread.java:748)
+
+--[ creat6: Check stdin and stdout not messed with i.e. fd is not assigned to new file ]--
+nachos 5.0j initializing... config interrupt timer processor console user-check grader
+
+nachos.machine.AssertionFailureError: Unknown system call!
+	at nachos.machine.Lib.assertTrue(Lib.java:89)
+	at nachos.machine.Lib.assertNotReached(Lib.java:106)
+	at nachos.userprog.UserProcess.handleSyscall(UserProcess.java:447)
+	at nachos.userprog.UserProcess.handleException(UserProcess.java:464)
+	at nachos.userprog.UserKernel.exceptionHandler(UserKernel.java:83)
+	at nachos.userprog.UserKernel$1.run(UserKernel.java:29)
+	at nachos.machine.Processor$MipsException.handle(Processor.java:619)
+	at nachos.machine.Processor.run(Processor.java:101)
+	at nachos.userprog.UThread.runProgram(UThread.java:31)
+	at nachos.userprog.UThread.access$000(UThread.java:11)
+	at nachos.userprog.UThread$1.run(UThread.java:20)
+	at nachos.threads.KThread.runThread(KThread.java:170)
+	at nachos.threads.KThread.access$000(KThread.java:41)
+	at nachos.threads.KThread$1.run(KThread.java:159)
+	at nachos.machine.TCB.threadroot(TCB.java:246)
+	at nachos.machine.TCB.access$100(TCB.java:25)
+	at nachos.machine.TCB$1.run(TCB.java:99)
+	at java.lang.Thread.run(Thread.java:748)
+
+--[ creat7: Check duplicate fd not given for many files ]--
+nachos 5.0j initializing... config interrupt timer processor console user-check grader
+
+nachos.machine.AssertionFailureError: Unknown system call!
+	at nachos.machine.Lib.assertTrue(Lib.java:89)
+	at nachos.machine.Lib.assertNotReached(Lib.java:106)
+	at nachos.userprog.UserProcess.handleSyscall(UserProcess.java:447)
+	at nachos.userprog.UserProcess.handleException(UserProcess.java:464)
+	at nachos.userprog.UserKernel.exceptionHandler(UserKernel.java:83)
+	at nachos.userprog.UserKernel$1.run(UserKernel.java:29)
+	at nachos.machine.Processor$MipsException.handle(Processor.java:619)
+	at nachos.machine.Processor.run(Processor.java:101)
+	at nachos.userprog.UThread.runProgram(UThread.java:31)
+	at nachos.userprog.UThread.access$000(UThread.java:11)
+	at nachos.userprog.UThread$1.run(UThread.java:20)
+	at nachos.threads.KThread.runThread(KThread.java:170)
+	at nachos.threads.KThread.access$000(KThread.java:41)
+	at nachos.threads.KThread$1.run(KThread.java:159)
+	at nachos.machine.TCB.threadroot(TCB.java:246)
+	at nachos.machine.TCB.access$100(TCB.java:25)
+	at nachos.machine.TCB$1.run(TCB.java:99)
+	at java.lang.Thread.run(Thread.java:748)
+
+--[ unlink1: Test unlink single file and get status ]--
+nachos 5.0j initializing... config interrupt timer processor console user-check grader
+
+nachos.machine.AssertionFailureError: Unknown system call!
+	at nachos.machine.Lib.assertTrue(Lib.java:89)
+	at nachos.machine.Lib.assertNotReached(Lib.java:106)
+	at nachos.userprog.UserProcess.handleSyscall(UserProcess.java:447)
+	at nachos.userprog.UserProcess.handleException(UserProcess.java:464)
+	at nachos.userprog.UserKernel.exceptionHandler(UserKernel.java:83)
+	at nachos.userprog.UserKernel$1.run(UserKernel.java:29)
+	at nachos.machine.Processor$MipsException.handle(Processor.java:619)
+	at nachos.machine.Processor.run(Processor.java:101)
+	at nachos.userprog.UThread.runProgram(UThread.java:31)
+	at nachos.userprog.UThread.access$000(UThread.java:11)
+	at nachos.userprog.UThread$1.run(UThread.java:20)
+	at nachos.threads.KThread.runThread(KThread.java:170)
+	at nachos.threads.KThread.access$000(KThread.java:41)
+	at nachos.threads.KThread$1.run(KThread.java:159)
+	at nachos.machine.TCB.threadroot(TCB.java:246)
+	at nachos.machine.TCB.access$100(TCB.java:25)
+	at nachos.machine.TCB$1.run(TCB.java:99)
+	at java.lang.Thread.run(Thread.java:748)
+
+--[ unlink2: Test unlink on invalid file ]--
+nachos 5.0j initializing... config interrupt timer processor console user-check grader
+
+nachos.machine.AssertionFailureError: Unknown system call!
+	at nachos.machine.Lib.assertTrue(Lib.java:89)
+	at nachos.machine.Lib.assertNotReached(Lib.java:106)
+	at nachos.userprog.UserProcess.handleSyscall(UserProcess.java:447)
+	at nachos.userprog.UserProcess.handleException(UserProcess.java:464)
+	at nachos.userprog.UserKernel.exceptionHandler(UserKernel.java:83)
+	at nachos.userprog.UserKernel$1.run(UserKernel.java:29)
+	at nachos.machine.Processor$MipsException.handle(Processor.java:619)
+	at nachos.machine.Processor.run(Processor.java:101)
+	at nachos.userprog.UThread.runProgram(UThread.java:31)
+	at nachos.userprog.UThread.access$000(UThread.java:11)
+	at nachos.userprog.UThread$1.run(UThread.java:20)
+	at nachos.threads.KThread.runThread(KThread.java:170)
+	at nachos.threads.KThread.access$000(KThread.java:41)
+	at nachos.threads.KThread$1.run(KThread.java:159)
+	at nachos.machine.TCB.threadroot(TCB.java:246)
+	at nachos.machine.TCB.access$100(TCB.java:25)
+	at nachos.machine.TCB$1.run(TCB.java:99)
+	at java.lang.Thread.run(Thread.java:748)
+
+--[ unlink3: Test unlink single file and then try to open it, should fail ]--
+nachos 5.0j initializing... config interrupt timer processor console user-check grader
+
+nachos.machine.AssertionFailureError: Unknown system call!
+	at nachos.machine.Lib.assertTrue(Lib.java:89)
+	at nachos.machine.Lib.assertNotReached(Lib.java:106)
+	at nachos.userprog.UserProcess.handleSyscall(UserProcess.java:447)
+	at nachos.userprog.UserProcess.handleException(UserProcess.java:464)
+	at nachos.userprog.UserKernel.exceptionHandler(UserKernel.java:83)
+	at nachos.userprog.UserKernel$1.run(UserKernel.java:29)
+	at nachos.machine.Processor$MipsException.handle(Processor.java:619)
+	at nachos.machine.Processor.run(Processor.java:101)
+	at nachos.userprog.UThread.runProgram(UThread.java:31)
+	at nachos.userprog.UThread.access$000(UThread.java:11)
+	at nachos.userprog.UThread$1.run(UThread.java:20)
+	at nachos.threads.KThread.runThread(KThread.java:170)
+	at nachos.threads.KThread.access$000(KThread.java:41)
+	at nachos.threads.KThread$1.run(KThread.java:159)
+	at nachos.machine.TCB.threadroot(TCB.java:246)
+	at nachos.machine.TCB.access$100(TCB.java:25)
+	at nachos.machine.TCB$1.run(TCB.java:99)
+	at java.lang.Thread.run(Thread.java:748)
+
+--[ unlink4: open file, then unlink, read to make sure we can still read ]--
+nachos 5.0j initializing... config interrupt timer processor console user-check grader
+
+nachos.machine.AssertionFailureError: Unknown system call!
+	at nachos.machine.Lib.assertTrue(Lib.java:89)
+	at nachos.machine.Lib.assertNotReached(Lib.java:106)
+	at nachos.userprog.UserProcess.handleSyscall(UserProcess.java:447)
+	at nachos.userprog.UserProcess.handleException(UserProcess.java:464)
+	at nachos.userprog.UserKernel.exceptionHandler(UserKernel.java:83)
+	at nachos.userprog.UserKernel$1.run(UserKernel.java:29)
+	at nachos.machine.Processor$MipsException.handle(Processor.java:619)
+	at nachos.machine.Processor.run(Processor.java:101)
+	at nachos.userprog.UThread.runProgram(UThread.java:31)
+	at nachos.userprog.UThread.access$000(UThread.java:11)
+	at nachos.userprog.UThread$1.run(UThread.java:20)
+	at nachos.threads.KThread.runThread(KThread.java:170)
+	at nachos.threads.KThread.access$000(KThread.java:41)
+	at nachos.threads.KThread$1.run(KThread.java:159)
+	at nachos.machine.TCB.threadroot(TCB.java:246)
+	at nachos.machine.TCB.access$100(TCB.java:25)
+	at nachos.machine.TCB$1.run(TCB.java:99)
+	at java.lang.Thread.run(Thread.java:748)
+
+--[ close1: Test close bogus file descriptor returns ]--
+nachos 5.0j initializing... config interrupt timer processor console user-check grader
+
+nachos.machine.AssertionFailureError: Unknown system call!
+	at nachos.machine.Lib.assertTrue(Lib.java:89)
+	at nachos.machine.Lib.assertNotReached(Lib.java:106)
+	at nachos.userprog.UserProcess.handleSyscall(UserProcess.java:447)
+	at nachos.userprog.UserProcess.handleException(UserProcess.java:464)
+	at nachos.userprog.UserKernel.exceptionHandler(UserKernel.java:83)
+	at nachos.userprog.UserKernel$1.run(UserKernel.java:29)
+	at nachos.machine.Processor$MipsException.handle(Processor.java:619)
+	at nachos.machine.Processor.run(Processor.java:101)
+	at nachos.userprog.UThread.runProgram(UThread.java:31)
+	at nachos.userprog.UThread.access$000(UThread.java:11)
+	at nachos.userprog.UThread$1.run(UThread.java:20)
+	at nachos.threads.KThread.runThread(KThread.java:170)
+	at nachos.threads.KThread.access$000(KThread.java:41)
+	at nachos.threads.KThread$1.run(KThread.java:159)
+	at nachos.machine.TCB.threadroot(TCB.java:246)
+	at nachos.machine.TCB.access$100(TCB.java:25)
+	at nachos.machine.TCB$1.run(TCB.java:99)
+	at java.lang.Thread.run(Thread.java:748)
+
+--[ close2: Test close on valid fd assuming open works ]--
+nachos 5.0j initializing... config interrupt timer processor console user-check grader
+
+nachos.machine.AssertionFailureError: Unknown system call!
+	at nachos.machine.Lib.assertTrue(Lib.java:89)
+	at nachos.machine.Lib.assertNotReached(Lib.java:106)
+	at nachos.userprog.UserProcess.handleSyscall(UserProcess.java:447)
+	at nachos.userprog.UserProcess.handleException(UserProcess.java:464)
+	at nachos.userprog.UserKernel.exceptionHandler(UserKernel.java:83)
+	at nachos.userprog.UserKernel$1.run(UserKernel.java:29)
+	at nachos.machine.Processor$MipsException.handle(Processor.java:619)
+	at nachos.machine.Processor.run(Processor.java:101)
+	at nachos.userprog.UThread.runProgram(UThread.java:31)
+	at nachos.userprog.UThread.access$000(UThread.java:11)
+	at nachos.userprog.UThread$1.run(UThread.java:20)
+	at nachos.threads.KThread.runThread(KThread.java:170)
+	at nachos.threads.KThread.access$000(KThread.java:41)
+	at nachos.threads.KThread$1.run(KThread.java:159)
+	at nachos.machine.TCB.threadroot(TCB.java:246)
+	at nachos.machine.TCB.access$100(TCB.java:25)
+	at nachos.machine.TCB$1.run(TCB.java:99)
+	at java.lang.Thread.run(Thread.java:748)
+
+--[ close3: Test to close stdin ]--
+nachos 5.0j initializing... config interrupt timer processor console user-check grader
+
+nachos.machine.AssertionFailureError: Unknown system call!
+	at nachos.machine.Lib.assertTrue(Lib.java:89)
+	at nachos.machine.Lib.assertNotReached(Lib.java:106)
+	at nachos.userprog.UserProcess.handleSyscall(UserProcess.java:447)
+	at nachos.userprog.UserProcess.handleException(UserProcess.java:464)
+	at nachos.userprog.UserKernel.exceptionHandler(UserKernel.java:83)
+	at nachos.userprog.UserKernel$1.run(UserKernel.java:29)
+	at nachos.machine.Processor$MipsException.handle(Processor.java:619)
+	at nachos.machine.Processor.run(Processor.java:101)
+	at nachos.userprog.UThread.runProgram(UThread.java:31)
+	at nachos.userprog.UThread.access$000(UThread.java:11)
+	at nachos.userprog.UThread$1.run(UThread.java:20)
+	at nachos.threads.KThread.runThread(KThread.java:170)
+	at nachos.threads.KThread.access$000(KThread.java:41)
+	at nachos.threads.KThread$1.run(KThread.java:159)
+	at nachos.machine.TCB.threadroot(TCB.java:246)
+	at nachos.machine.TCB.access$100(TCB.java:25)
+	at nachos.machine.TCB$1.run(TCB.java:99)
+	at java.lang.Thread.run(Thread.java:748)
+
+--[ close4: Test to close stdout ]--
+nachos 5.0j initializing... config interrupt timer processor console user-check grader
+
+nachos.machine.AssertionFailureError: Unknown system call!
+	at nachos.machine.Lib.assertTrue(Lib.java:89)
+	at nachos.machine.Lib.assertNotReached(Lib.java:106)
+	at nachos.userprog.UserProcess.handleSyscall(UserProcess.java:447)
+	at nachos.userprog.UserProcess.handleException(UserProcess.java:464)
+	at nachos.userprog.UserKernel.exceptionHandler(UserKernel.java:83)
+	at nachos.userprog.UserKernel$1.run(UserKernel.java:29)
+	at nachos.machine.Processor$MipsException.handle(Processor.java:619)
+	at nachos.machine.Processor.run(Processor.java:101)
+	at nachos.userprog.UThread.runProgram(UThread.java:31)
+	at nachos.userprog.UThread.access$000(UThread.java:11)
+	at nachos.userprog.UThread$1.run(UThread.java:20)
+	at nachos.threads.KThread.runThread(KThread.java:170)
+	at nachos.threads.KThread.access$000(KThread.java:41)
+	at nachos.threads.KThread$1.run(KThread.java:159)
+	at nachos.machine.TCB.threadroot(TCB.java:246)
+	at nachos.machine.TCB.access$100(TCB.java:25)
+	at nachos.machine.TCB$1.run(TCB.java:99)
+	at java.lang.Thread.run(Thread.java:748)
+
+--[ close5: Test to close stdin/stdout and open 15 files ]--
+nachos 5.0j initializing... config interrupt timer processor console user-check grader
+
+nachos.machine.AssertionFailureError: Unknown system call!
+	at nachos.machine.Lib.assertTrue(Lib.java:89)
+	at nachos.machine.Lib.assertNotReached(Lib.java:106)
+	at nachos.userprog.UserProcess.handleSyscall(UserProcess.java:447)
+	at nachos.userprog.UserProcess.handleException(UserProcess.java:464)
+	at nachos.userprog.UserKernel.exceptionHandler(UserKernel.java:83)
+	at nachos.userprog.UserKernel$1.run(UserKernel.java:29)
+	at nachos.machine.Processor$MipsException.handle(Processor.java:619)
+	at nachos.machine.Processor.run(Processor.java:101)
+	at nachos.userprog.UThread.runProgram(UThread.java:31)
+	at nachos.userprog.UThread.access$000(UThread.java:11)
+	at nachos.userprog.UThread$1.run(UThread.java:20)
+	at nachos.threads.KThread.runThread(KThread.java:170)
+	at nachos.threads.KThread.access$000(KThread.java:41)
+	at nachos.threads.KThread$1.run(KThread.java:159)
+	at nachos.machine.TCB.threadroot(TCB.java:246)
+	at nachos.machine.TCB.access$100(TCB.java:25)
+	at nachos.machine.TCB$1.run(TCB.java:99)
+	at java.lang.Thread.run(Thread.java:748)
+
+--[ exec1: Execute a simple program (one child) ]--
+nachos 5.0j initializing... config interrupt timer processor console user-check grader
+
+nachos.machine.AssertionFailureError: Unknown system call!
+	at nachos.machine.Lib.assertTrue(Lib.java:89)
+	at nachos.machine.Lib.assertNotReached(Lib.java:106)
+	at nachos.userprog.UserProcess.handleSyscall(UserProcess.java:447)
+	at nachos.userprog.UserProcess.handleException(UserProcess.java:464)
+	at nachos.userprog.UserKernel.exceptionHandler(UserKernel.java:83)
+	at nachos.userprog.UserKernel$1.run(UserKernel.java:29)
+	at nachos.machine.Processor$MipsException.handle(Processor.java:619)
+	at nachos.machine.Processor.run(Processor.java:101)
+	at nachos.userprog.UThread.runProgram(UThread.java:31)
+	at nachos.userprog.UThread.access$000(UThread.java:11)
+	at nachos.userprog.UThread$1.run(UThread.java:20)
+	at nachos.threads.KThread.runThread(KThread.java:170)
+	at nachos.threads.KThread.access$000(KThread.java:41)
+	at nachos.threads.KThread$1.run(KThread.java:159)
+	at nachos.machine.TCB.threadroot(TCB.java:246)
+	at nachos.machine.TCB.access$100(TCB.java:25)
+	at nachos.machine.TCB$1.run(TCB.java:99)
+	at java.lang.Thread.run(Thread.java:748)
+
+--[ exec2: Execute multiple programs (three children) ]--
+nachos 5.0j initializing... config interrupt timer processor console user-check grader
+
+nachos.machine.AssertionFailureError: Unknown system call!
+	at nachos.machine.Lib.assertTrue(Lib.java:89)
+	at nachos.machine.Lib.assertNotReached(Lib.java:106)
+	at nachos.userprog.UserProcess.handleSyscall(UserProcess.java:447)
+	at nachos.userprog.UserProcess.handleException(UserProcess.java:464)
+	at nachos.userprog.UserKernel.exceptionHandler(UserKernel.java:83)
+	at nachos.userprog.UserKernel$1.run(UserKernel.java:29)
+	at nachos.machine.Processor$MipsException.handle(Processor.java:619)
+	at nachos.machine.Processor.run(Processor.java:101)
+	at nachos.userprog.UThread.runProgram(UThread.java:31)
+	at nachos.userprog.UThread.access$000(UThread.java:11)
+	at nachos.userprog.UThread$1.run(UThread.java:20)
+	at nachos.threads.KThread.runThread(KThread.java:170)
+	at nachos.threads.KThread.access$000(KThread.java:41)
+	at nachos.threads.KThread$1.run(KThread.java:159)
+	at nachos.machine.TCB.threadroot(TCB.java:246)
+	at nachos.machine.TCB.access$100(TCB.java:25)
+	at nachos.machine.TCB$1.run(TCB.java:99)
+	at java.lang.Thread.run(Thread.java:748)
+
+--[ exec3: Execute an invalid program ]--
+nachos 5.0j initializing... config interrupt timer processor console user-check grader
+
+nachos.machine.AssertionFailureError: Unknown system call!
+	at nachos.machine.Lib.assertTrue(Lib.java:89)
+	at nachos.machine.Lib.assertNotReached(Lib.java:106)
+	at nachos.userprog.UserProcess.handleSyscall(UserProcess.java:447)
+	at nachos.userprog.UserProcess.handleException(UserProcess.java:464)
+	at nachos.userprog.UserKernel.exceptionHandler(UserKernel.java:83)
+	at nachos.userprog.UserKernel$1.run(UserKernel.java:29)
+	at nachos.machine.Processor$MipsException.handle(Processor.java:619)
+	at nachos.machine.Processor.run(Processor.java:101)
+	at nachos.userprog.UThread.runProgram(UThread.java:31)
+	at nachos.userprog.UThread.access$000(UThread.java:11)
+	at nachos.userprog.UThread$1.run(UThread.java:20)
+	at nachos.threads.KThread.runThread(KThread.java:170)
+	at nachos.threads.KThread.access$000(KThread.java:41)
+	at nachos.threads.KThread$1.run(KThread.java:159)
+	at nachos.machine.TCB.threadroot(TCB.java:246)
+	at nachos.machine.TCB.access$100(TCB.java:25)
+	at nachos.machine.TCB$1.run(TCB.java:99)
+	at java.lang.Thread.run(Thread.java:748)
+
+--[ exec4: Execute a bad program (out of memory) ]--
+nachos 5.0j initializing... config interrupt timer processor console user-check grader
+
+nachos.machine.AssertionFailureError: Unknown system call!
+	at nachos.machine.Lib.assertTrue(Lib.java:89)
+	at nachos.machine.Lib.assertNotReached(Lib.java:106)
+	at nachos.userprog.UserProcess.handleSyscall(UserProcess.java:447)
+	at nachos.userprog.UserProcess.handleException(UserProcess.java:464)
+	at nachos.userprog.UserKernel.exceptionHandler(UserKernel.java:83)
+	at nachos.userprog.UserKernel$1.run(UserKernel.java:29)
+	at nachos.machine.Processor$MipsException.handle(Processor.java:619)
+	at nachos.machine.Processor.run(Processor.java:101)
+	at nachos.userprog.UThread.runProgram(UThread.java:31)
+	at nachos.userprog.UThread.access$000(UThread.java:11)
+	at nachos.userprog.UThread$1.run(UThread.java:20)
+	at nachos.threads.KThread.runThread(KThread.java:170)
+	at nachos.threads.KThread.access$000(KThread.java:41)
+	at nachos.threads.KThread$1.run(KThread.java:159)
+	at nachos.machine.TCB.threadroot(TCB.java:246)
+	at nachos.machine.TCB.access$100(TCB.java:25)
+	at nachos.machine.TCB$1.run(TCB.java:99)
+	at java.lang.Thread.run(Thread.java:748)
+
+--[ exec6: Execute with arguments ]--
+nachos 5.0j initializing... config interrupt timer processor console user-check grader
+
+nachos.machine.AssertionFailureError: Unknown system call!
+	at nachos.machine.Lib.assertTrue(Lib.java:89)
+	at nachos.machine.Lib.assertNotReached(Lib.java:106)
+	at nachos.userprog.UserProcess.handleSyscall(UserProcess.java:447)
+	at nachos.userprog.UserProcess.handleException(UserProcess.java:464)
+	at nachos.userprog.UserKernel.exceptionHandler(UserKernel.java:83)
+	at nachos.userprog.UserKernel$1.run(UserKernel.java:29)
+	at nachos.machine.Processor$MipsException.handle(Processor.java:619)
+	at nachos.machine.Processor.run(Processor.java:101)
+	at nachos.userprog.UThread.runProgram(UThread.java:31)
+	at nachos.userprog.UThread.access$000(UThread.java:11)
+	at nachos.userprog.UThread$1.run(UThread.java:20)
+	at nachos.threads.KThread.runThread(KThread.java:170)
+	at nachos.threads.KThread.access$000(KThread.java:41)
+	at nachos.threads.KThread$1.run(KThread.java:159)
+	at nachos.machine.TCB.threadroot(TCB.java:246)
+	at nachos.machine.TCB.access$100(TCB.java:25)
+	at nachos.machine.TCB$1.run(TCB.java:99)
+	at java.lang.Thread.run(Thread.java:748)
+
+--[ exit1: Basic single process exit testcase ]--
+nachos 5.0j initializing... config interrupt timer processor console user-check grader
+
+success
+
+--[ exit2: Test if process is freeing pages correctly on exit ]--
+nachos 5.0j initializing... config interrupt timer processor console user-check grader
+
+nachos.machine.AssertionFailureError: Unknown system call!
+	at nachos.machine.Lib.assertTrue(Lib.java:89)
+	at nachos.machine.Lib.assertNotReached(Lib.java:106)
+	at nachos.userprog.UserProcess.handleSyscall(UserProcess.java:447)
+	at nachos.userprog.UserProcess.handleException(UserProcess.java:464)
+	at nachos.userprog.UserKernel.exceptionHandler(UserKernel.java:83)
+	at nachos.userprog.UserKernel$1.run(UserKernel.java:29)
+	at nachos.machine.Processor$MipsException.handle(Processor.java:619)
+	at nachos.machine.Processor.run(Processor.java:101)
+	at nachos.userprog.UThread.runProgram(UThread.java:31)
+	at nachos.userprog.UThread.access$000(UThread.java:11)
+	at nachos.userprog.UThread$1.run(UThread.java:20)
+	at nachos.threads.KThread.runThread(KThread.java:170)
+	at nachos.threads.KThread.access$000(KThread.java:41)
+	at nachos.threads.KThread$1.run(KThread.java:159)
+	at nachos.machine.TCB.threadroot(TCB.java:246)
+	at nachos.machine.TCB.access$100(TCB.java:25)
+	at nachos.machine.TCB$1.run(TCB.java:99)
+	at java.lang.Thread.run(Thread.java:748)
+
+--[ exit3: Test if process is closing the open files on exit ]--
+nachos 5.0j initializing... config interrupt timer processor console user-check grader
+
+nachos.machine.AssertionFailureError: Unknown system call!
+	at nachos.machine.Lib.assertTrue(Lib.java:89)
+	at nachos.machine.Lib.assertNotReached(Lib.java:106)
+	at nachos.userprog.UserProcess.handleSyscall(UserProcess.java:447)
+	at nachos.userprog.UserProcess.handleException(UserProcess.java:464)
+	at nachos.userprog.UserKernel.exceptionHandler(UserKernel.java:83)
+	at nachos.userprog.UserKernel$1.run(UserKernel.java:29)
+	at nachos.machine.Processor$MipsException.handle(Processor.java:619)
+	at nachos.machine.Processor.run(Processor.java:101)
+	at nachos.userprog.UThread.runProgram(UThread.java:31)
+	at nachos.userprog.UThread.access$000(UThread.java:11)
+	at nachos.userprog.UThread$1.run(UThread.java:20)
+	at nachos.threads.KThread.runThread(KThread.java:170)
+	at nachos.threads.KThread.access$000(KThread.java:41)
+	at nachos.threads.KThread$1.run(KThread.java:159)
+	at nachos.machine.TCB.threadroot(TCB.java:246)
+	at nachos.machine.TCB.access$100(TCB.java:25)
+	at nachos.machine.TCB$1.run(TCB.java:99)
+	at java.lang.Thread.run(Thread.java:748)
+
+--[ exit4: Test if exit status of child is returned to parent via join - single child ]--
+nachos 5.0j initializing... config interrupt timer processor console user-check grader
+
+nachos.machine.AssertionFailureError: Unknown system call!
+	at nachos.machine.Lib.assertTrue(Lib.java:89)
+	at nachos.machine.Lib.assertNotReached(Lib.java:106)
+	at nachos.userprog.UserProcess.handleSyscall(UserProcess.java:447)
+	at nachos.userprog.UserProcess.handleException(UserProcess.java:464)
+	at nachos.userprog.UserKernel.exceptionHandler(UserKernel.java:83)
+	at nachos.userprog.UserKernel$1.run(UserKernel.java:29)
+	at nachos.machine.Processor$MipsException.handle(Processor.java:619)
+	at nachos.machine.Processor.run(Processor.java:101)
+	at nachos.userprog.UThread.runProgram(UThread.java:31)
+	at nachos.userprog.UThread.access$000(UThread.java:11)
+	at nachos.userprog.UThread$1.run(UThread.java:20)
+	at nachos.threads.KThread.runThread(KThread.java:170)
+	at nachos.threads.KThread.access$000(KThread.java:41)
+	at nachos.threads.KThread$1.run(KThread.java:159)
+	at nachos.machine.TCB.threadroot(TCB.java:246)
+	at nachos.machine.TCB.access$100(TCB.java:25)
+	at nachos.machine.TCB$1.run(TCB.java:99)
+	at java.lang.Thread.run(Thread.java:748)
+
+--[ exit5: Test if exit status of child is returned to parent via join - multiple children ]--
+nachos 5.0j initializing... config interrupt timer processor console user-check grader
+
+nachos.machine.AssertionFailureError: Unknown system call!
+	at nachos.machine.Lib.assertTrue(Lib.java:89)
+	at nachos.machine.Lib.assertNotReached(Lib.java:106)
+	at nachos.userprog.UserProcess.handleSyscall(UserProcess.java:447)
+	at nachos.userprog.UserProcess.handleException(UserProcess.java:464)
+	at nachos.userprog.UserKernel.exceptionHandler(UserKernel.java:83)
+	at nachos.userprog.UserKernel$1.run(UserKernel.java:29)
+	at nachos.machine.Processor$MipsException.handle(Processor.java:619)
+	at nachos.machine.Processor.run(Processor.java:101)
+	at nachos.userprog.UThread.runProgram(UThread.java:31)
+	at nachos.userprog.UThread.access$000(UThread.java:11)
+	at nachos.userprog.UThread$1.run(UThread.java:20)
+	at nachos.threads.KThread.runThread(KThread.java:170)
+	at nachos.threads.KThread.access$000(KThread.java:41)
+	at nachos.threads.KThread$1.run(KThread.java:159)
+	at nachos.machine.TCB.threadroot(TCB.java:246)
+	at nachos.machine.TCB.access$100(TCB.java:25)
+	at nachos.machine.TCB$1.run(TCB.java:99)
+	at java.lang.Thread.run(Thread.java:748)
+
+--[ join1: After exec-ing the child; it waits for the child to exit. ]--
+nachos 5.0j initializing... config interrupt timer processor console user-check grader
+
+nachos.machine.AssertionFailureError: Unknown system call!
+	at nachos.machine.Lib.assertTrue(Lib.java:89)
+	at nachos.machine.Lib.assertNotReached(Lib.java:106)
+	at nachos.userprog.UserProcess.handleSyscall(UserProcess.java:447)
+	at nachos.userprog.UserProcess.handleException(UserProcess.java:464)
+	at nachos.userprog.UserKernel.exceptionHandler(UserKernel.java:83)
+	at nachos.userprog.UserKernel$1.run(UserKernel.java:29)
+	at nachos.machine.Processor$MipsException.handle(Processor.java:619)
+	at nachos.machine.Processor.run(Processor.java:101)
+	at nachos.userprog.UThread.runProgram(UThread.java:31)
+	at nachos.userprog.UThread.access$000(UThread.java:11)
+	at nachos.userprog.UThread$1.run(UThread.java:20)
+	at nachos.threads.KThread.runThread(KThread.java:170)
+	at nachos.threads.KThread.access$000(KThread.java:41)
+	at nachos.threads.KThread$1.run(KThread.java:159)
+	at nachos.machine.TCB.threadroot(TCB.java:246)
+	at nachos.machine.TCB.access$100(TCB.java:25)
+	at nachos.machine.TCB$1.run(TCB.java:99)
+	at java.lang.Thread.run(Thread.java:748)
+
+--[ join2: Join to child that has not exited yet ]--
+nachos 5.0j initializing... config interrupt timer processor console user-check grader
+
+nachos.machine.AssertionFailureError: Unknown system call!
+	at nachos.machine.Lib.assertTrue(Lib.java:89)
+	at nachos.machine.Lib.assertNotReached(Lib.java:106)
+	at nachos.userprog.UserProcess.handleSyscall(UserProcess.java:447)
+	at nachos.userprog.UserProcess.handleException(UserProcess.java:464)
+	at nachos.userprog.UserKernel.exceptionHandler(UserKernel.java:83)
+	at nachos.userprog.UserKernel$1.run(UserKernel.java:29)
+	at nachos.machine.Processor$MipsException.handle(Processor.java:619)
+	at nachos.machine.Processor.run(Processor.java:101)
+	at nachos.userprog.UThread.runProgram(UThread.java:31)
+	at nachos.userprog.UThread.access$000(UThread.java:11)
+	at nachos.userprog.UThread$1.run(UThread.java:20)
+	at nachos.threads.KThread.runThread(KThread.java:170)
+	at nachos.threads.KThread.access$000(KThread.java:41)
+	at nachos.threads.KThread$1.run(KThread.java:159)
+	at nachos.machine.TCB.threadroot(TCB.java:246)
+	at nachos.machine.TCB.access$100(TCB.java:25)
+	at nachos.machine.TCB$1.run(TCB.java:99)
+	at java.lang.Thread.run(Thread.java:748)
+
+--[ join3: Call join on child's child which counts as joining on a process that is not a child of the current process ]--
+nachos 5.0j initializing... config interrupt timer processor console user-check grader
+
+nachos.machine.AssertionFailureError: Unknown system call!
+	at nachos.machine.Lib.assertTrue(Lib.java:89)
+	at nachos.machine.Lib.assertNotReached(Lib.java:106)
+	at nachos.userprog.UserProcess.handleSyscall(UserProcess.java:447)
+	at nachos.userprog.UserProcess.handleException(UserProcess.java:464)
+	at nachos.userprog.UserKernel.exceptionHandler(UserKernel.java:83)
+	at nachos.userprog.UserKernel$1.run(UserKernel.java:29)
+	at nachos.machine.Processor$MipsException.handle(Processor.java:619)
+	at nachos.machine.Processor.run(Processor.java:101)
+	at nachos.userprog.UThread.runProgram(UThread.java:31)
+	at nachos.userprog.UThread.access$000(UThread.java:11)
+	at nachos.userprog.UThread$1.run(UThread.java:20)
+	at nachos.threads.KThread.runThread(KThread.java:170)
+	at nachos.threads.KThread.access$000(KThread.java:41)
+	at nachos.threads.KThread$1.run(KThread.java:159)
+	at nachos.machine.TCB.threadroot(TCB.java:246)
+	at nachos.machine.TCB.access$100(TCB.java:25)
+	at nachos.machine.TCB$1.run(TCB.java:99)
+	at java.lang.Thread.run(Thread.java:748)
+
+--[ join4: Joins on a child that exits due to an unhandled exception ]--
+nachos 5.0j initializing... config interrupt timer processor console user-check grader
+
+nachos.machine.AssertionFailureError: Unknown system call!
+	at nachos.machine.Lib.assertTrue(Lib.java:89)
+	at nachos.machine.Lib.assertNotReached(Lib.java:106)
+	at nachos.userprog.UserProcess.handleSyscall(UserProcess.java:447)
+	at nachos.userprog.UserProcess.handleException(UserProcess.java:464)
+	at nachos.userprog.UserKernel.exceptionHandler(UserKernel.java:83)
+	at nachos.userprog.UserKernel$1.run(UserKernel.java:29)
+	at nachos.machine.Processor$MipsException.handle(Processor.java:619)
+	at nachos.machine.Processor.run(Processor.java:101)
+	at nachos.userprog.UThread.runProgram(UThread.java:31)
+	at nachos.userprog.UThread.access$000(UThread.java:11)
+	at nachos.userprog.UThread$1.run(UThread.java:20)
+	at nachos.threads.KThread.runThread(KThread.java:170)
+	at nachos.threads.KThread.access$000(KThread.java:41)
+	at nachos.threads.KThread$1.run(KThread.java:159)
+	at nachos.machine.TCB.threadroot(TCB.java:246)
+	at nachos.machine.TCB.access$100(TCB.java:25)
+	at nachos.machine.TCB$1.run(TCB.java:99)
+	at java.lang.Thread.run(Thread.java:748)
+
+--[ join5: Exec 3 children and then join all 3 ]--
+nachos 5.0j initializing... config interrupt timer processor console user-check grader
+
+nachos.machine.AssertionFailureError: Unknown system call!
+	at nachos.machine.Lib.assertTrue(Lib.java:89)
+	at nachos.machine.Lib.assertNotReached(Lib.java:106)
+	at nachos.userprog.UserProcess.handleSyscall(UserProcess.java:447)
+	at nachos.userprog.UserProcess.handleException(UserProcess.java:464)
+	at nachos.userprog.UserKernel.exceptionHandler(UserKernel.java:83)
+	at nachos.userprog.UserKernel$1.run(UserKernel.java:29)
+	at nachos.machine.Processor$MipsException.handle(Processor.java:619)
+	at nachos.machine.Processor.run(Processor.java:101)
+	at nachos.userprog.UThread.runProgram(UThread.java:31)
+	at nachos.userprog.UThread.access$000(UThread.java:11)
+	at nachos.userprog.UThread$1.run(UThread.java:20)
+	at nachos.threads.KThread.runThread(KThread.java:170)
+	at nachos.threads.KThread.access$000(KThread.java:41)
+	at nachos.threads.KThread$1.run(KThread.java:159)
+	at nachos.machine.TCB.threadroot(TCB.java:246)
+	at nachos.machine.TCB.access$100(TCB.java:25)
+	at nachos.machine.TCB$1.run(TCB.java:99)
+	at java.lang.Thread.run(Thread.java:748)
+
+--[ join6: Should not join on the same process twice ]--
+nachos 5.0j initializing... config interrupt timer processor console user-check grader
+
+nachos.machine.AssertionFailureError: Unknown system call!
+	at nachos.machine.Lib.assertTrue(Lib.java:89)
+	at nachos.machine.Lib.assertNotReached(Lib.java:106)
+	at nachos.userprog.UserProcess.handleSyscall(UserProcess.java:447)
+	at nachos.userprog.UserProcess.handleException(UserProcess.java:464)
+	at nachos.userprog.UserKernel.exceptionHandler(UserKernel.java:83)
+	at nachos.userprog.UserKernel$1.run(UserKernel.java:29)
+	at nachos.machine.Processor$MipsException.handle(Processor.java:619)
+	at nachos.machine.Processor.run(Processor.java:101)
+	at nachos.userprog.UThread.runProgram(UThread.java:31)
+	at nachos.userprog.UThread.access$000(UThread.java:11)
+	at nachos.userprog.UThread$1.run(UThread.java:20)
+	at nachos.threads.KThread.runThread(KThread.java:170)
+	at nachos.threads.KThread.access$000(KThread.java:41)
+	at nachos.threads.KThread$1.run(KThread.java:159)
+	at nachos.machine.TCB.threadroot(TCB.java:246)
+	at nachos.machine.TCB.access$100(TCB.java:25)
+	at nachos.machine.TCB$1.run(TCB.java:99)
+	at java.lang.Thread.run(Thread.java:748)
+
+--[ multiprog1: Read 1024 bytes of data from a random page ]--
+nachos 5.0j initializing... config interrupt timer processor console user-check grader
+readVMTest() is executing
+createProcess is executing
+
+success
+
+--[ multiprog3: Check process creation and execute ]--
+nachos 5.0j initializing... config interrupt timer processor console user-check grader
+createProcess is executing
+
+success
+
+--[ multiprog5: Pocess creation with argv > 1 page should fail ]--
+nachos 5.0j initializing... config interrupt timer processor console user-check grader
+createProcess is executing
+
+success
+
+--[ multiprog6: check if process creation fails when memory is out of pages ]--
+nachos 5.0j initializing... config interrupt timer processor console user-check grader
+createProcess is executing
+createProcess is executing
+
+nachos.machine.AssertionFailureError: Unknown system call!
+	at nachos.machine.Lib.assertTrue(Lib.java:89)
+	at nachos.machine.Lib.assertNotReached(Lib.java:106)
+	at nachos.userprog.UserProcess.handleSyscall(UserProcess.java:447)
+	at nachos.userprog.UserProcess.handleException(UserProcess.java:464)
+	at nachos.userprog.UserKernel.exceptionHandler(UserKernel.java:83)
+	at nachos.userprog.UserKernel$1.run(UserKernel.java:29)
+	at nachos.machine.Processor$MipsException.handle(Processor.java:619)
+	at nachos.machine.Processor.run(Processor.java:101)
+	at nachos.userprog.UThread.runProgram(UThread.java:31)
+	at nachos.userprog.UThread.access$000(UThread.java:11)
+	at nachos.userprog.UThread$1.run(UThread.java:20)
+	at nachos.threads.KThread.runThread(KThread.java:170)
+	at nachos.threads.KThread.access$000(KThread.java:41)
+	at nachos.threads.KThread$1.run(KThread.java:159)
+	at nachos.machine.TCB.threadroot(TCB.java:246)
+	at nachos.machine.TCB.access$100(TCB.java:25)
+	at nachos.machine.TCB$1.run(TCB.java:99)
+	at java.lang.Thread.run(Thread.java:748)
+
+--[ multiprog7: Read at Invalid virtual address should fail ]--
+nachos 5.0j initializing... config interrupt timer processor console user-check grader
+createProcess is executing
+
+nachos.machine.AssertionFailureError: Read at invalid address not failed
+	at nachos.machine.Lib.assertTrue(Lib.java:89)
+	at nachos.ag.UCSDMultiProgGrader.invalidAddressReadVMTest(UCSDMultiProgGrader.java:162)
+	at nachos.ag.UCSDMultiProgGrader.run(UCSDMultiProgGrader.java:244)
+	at nachos.ag.AutoGrader.start(AutoGrader.java:47)
+	at nachos.machine.Machine$1.run(Machine.java:62)
+	at nachos.machine.TCB.threadroot(TCB.java:246)
+	at nachos.machine.TCB.start(TCB.java:129)
+	at nachos.machine.Machine.main(Machine.java:60)
+
+--[ multiprog8: Write at Invalid virtual address should fail ]--
+nachos 5.0j initializing... config interrupt timer processor console user-check grader
+createProcess is executing
+
+nachos.machine.AssertionFailureError: Write at invalid address not failed
+	at nachos.machine.Lib.assertTrue(Lib.java:89)
+	at nachos.ag.UCSDMultiProgGrader.invalidAddressWriteVMTest(UCSDMultiProgGrader.java:184)
+	at nachos.ag.UCSDMultiProgGrader.run(UCSDMultiProgGrader.java:245)
+	at nachos.ag.AutoGrader.start(AutoGrader.java:47)
+	at nachos.machine.Machine$1.run(Machine.java:62)
+	at nachos.machine.TCB.threadroot(TCB.java:246)
+	at nachos.machine.TCB.start(TCB.java:129)
+	at nachos.machine.Machine.main(Machine.java:60)
+
+--[ multiprog9: Free list correctness is not affected ]--
+nachos 5.0j initializing... config interrupt timer processor console user-check grader
+createProcess is executing
+createProcess is executing
+
+nachos.machine.AssertionFailureError: Unknown system call!
+	at nachos.machine.Lib.assertTrue(Lib.java:89)
+	at nachos.machine.Lib.assertNotReached(Lib.java:106)
+	at nachos.userprog.UserProcess.handleSyscall(UserProcess.java:447)
+	at nachos.userprog.UserProcess.handleException(UserProcess.java:464)
+	at nachos.userprog.UserKernel.exceptionHandler(UserKernel.java:83)
+	at nachos.userprog.UserKernel$1.run(UserKernel.java:29)
+	at nachos.machine.Processor$MipsException.handle(Processor.java:619)
+	at nachos.machine.Processor.run(Processor.java:101)
+	at nachos.userprog.UThread.runProgram(UThread.java:31)
+	at nachos.userprog.UThread.access$000(UThread.java:11)
+	at nachos.userprog.UThread$1.run(UThread.java:20)
+	at nachos.threads.KThread.runThread(KThread.java:170)
+	at nachos.threads.KThread.access$000(KThread.java:41)
+	at nachos.threads.KThread$1.run(KThread.java:159)
+	at nachos.machine.TCB.threadroot(TCB.java:246)
+	at nachos.machine.TCB.access$100(TCB.java:25)
+	at nachos.machine.TCB$1.run(TCB.java:99)
+	at java.lang.Thread.run(Thread.java:748)
+
